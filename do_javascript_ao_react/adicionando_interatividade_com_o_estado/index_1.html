@@ -24,6 +24,10 @@
 			function HomePage() {
 				const names = ['Leonardo', 'José', 'Oliveira', 'Santos'];
 
+				function handleClick() {
+					console.log('Increment like count');
+				}
+
 				return (
 			        <div>
 						<Header title="Develop. Preview. Ship. 🚀" />
@@ -36,7 +40,7 @@
 							}
 						</ul>
 
-						<button onClick={}>Like</button>
+						<button onClick={handleClick}>Like</button>
 					</div>
 			    )
 			}
